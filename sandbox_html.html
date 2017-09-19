@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sandbox HTML</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="sandbox_html.css">
+</head>
+<body>
+<div class="container">
+  <h1>Executive Summary</h1>
+  <h2>Introduction</h2>
+  <p><strong> XYZ Corp.</strong> is happy to present the following proposal to <strong>ABC Inc.</strong> The
+    high-level services identified at this time are as follows:</p>
+  <ul>
+    <li>Define a software specification for the ABCD Software</li>
+    <li>Implement the ABCD Software as per the specification</li>
+    <li>Perform QA, performance analysis and testing of the ABCD Software prior to delivery</li>
+  </ul>
+  <p>The key features of the ABCD Software are:</p>
+  <ol>
+    <li>Support both current in-school <strong>PCs</strong> (with IE 8 and later browsers) and
+      <strong>iPads.</strong>
+    </li>
+    <li>A custom <strong>Flash-based multi-media interactive web-application </strong>that will run on modern
+      browsers and allow kindergarten students to practice and improve their reading skills. This will use custom
+      graphic resources along with <code>animation</code> and <code>audio</code> to provide feedback.
+    </li>
+    <li>A <strong>HTML5 web-application </strong>that will provide the same functionality as the Flash-based
+      web-application but will run on iPads.
+    </li>
+    <li>A <strong>student tracking and monitoring module</strong> that will keep track of each student's progress
+      while using the software. A custom API will be developed so that the above two and also future applications
+      will be able to provide statistics to the tracking and monitoring module.
+    </li>
+    <li>A <strong>classroom management application</strong> that will allow teachers and administrators to manage
+      the students, classes and other features of the software.
+    </li>
+  </ol>
+  <h1>Technology Specification</h1>
+  <p>The following is a list of the features that are being proposed for the ABCD Software.</p>
+  <h2>ABCD Software</h2>
+  <h3><em>Initial Screens</em></h3>
+  <p>These are the initial screens that will be commonly used to access the software:</p>
+  <ol>
+    <li><strong>Student Login Screen:</strong> serves as a welcome screen in which the student selects their name
+      from a list of students in the class.
+    </li>
+    <li><strong>Select Letter Screen:</strong> contains a map or other custom interface to allow the student to
+      select a letter to advance to the activities for that letter.
+      <ul>
+        <li>The current week's letter is highlighted.</li>
+      </ul>
+    </li>
+    <li><strong>Letter Screen: </strong>shown after a letter is selected. The Letter Person appears and an
+      associated song is played. The Letter Person greets the child and shares his or her special characteristic.
+      <ul>
+        <li>This screen also includes some spoken audio, such as instructions, feedback and sounds/words when
+          letters/objects are clicked.
+        </li>
+      </ul>
+    </li>
+  </ol>
+  <h2>Timeline</h2>
+  <p>The below details the estimated time for each of the development phases and the deliverables for each phase.
+    The total time estimate is <em>4 weeks.</em></p>
+  <table>
+    <colgroup>
+      <col width="10%">
+      <col width="35%">
+      <col width="45%">
+      <col width="10%">
+    </colgroup>
+    <thead>
+    <tr>
+      <th>Phase</th>
+      <th>Description</th>
+      <th>Tasks</th>
+      <th>Schedule Estimate</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Inception / Elobaration</td>
+      <td>initial Analysis and Design</td>
+      <td>
+        <ul>
+          <li>Technical design specification</li>
+          <li>use case</li>
+        </ul>
+      </td>
+      <td>1week</td>
+    </tr>
+    <tr>
+      <td>Construction</td>
+      <td>core development work including Drupal and the E-book content related modules</td>
+      <td>
+        <ul>
+          <li>Install and configure Drupal</li>
+          <li>Install and configure the required modules</li>
+          <li>Implement the E-book content authoring specific functionality</li>
+        </ul>
+      </td>
+      <td>2weeks</td>
+    </tr>
+    <tr>
+      <td>Verification / Transition</td>
+      <td>Publish Drupal to extranet server for review and testing</td>
+      <td>
+        <ul>
+          <li>Move CMS module to ENC extranet</li>
+          <li>Complete QA testing</li>
+        </ul>
+      </td>
+      <td>1 week</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>
