@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>fire department</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    * * {
+      margin: 0;
+      padding: 0;
+    }
+    .div1 {
+      background-image: url("fire_1.jpg");
+      width: 100%;
+      height: 702px;
+    }
+    .div1 img {
+      padding: 10px;
+      margin-top: 50px;
+      margin-left: 100px;
+      float: left;
+    }
+    .text {
+      padding-top: 60px;
+      font-family: calibri;
+      font-weight: bold;
+      font-size: 22px;
+      color: white;
+      float: left;
+    }
+    .div1 ul {
+      list-style: none;
+    }
+    .div1 ul li {
+      display: inline;
+      color: white;
+      font-family: calibri;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 20px;
+    }
+    .menu_bar {
+      padding-top: 86px;
+      padding-left: 400px;
+    }
+    .text1, .div51 {
+      color: white;
+      margin-top: 100px;
+      margin-left: 100px;
+      font-size: 90px;
+      font-family: calibri;
+      font-weight: bold;
+    }
+    .box {
+      width: 180px;
+      border: 3px solid white;
+      float: left;
+      padding: 10px;
+      margin-top: 30px;
+      margin-left: 100px;
+      color: white;
+      font-family: Calibri;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .div2 {
+      background-color: #ffffff;
+      width: 100%;
+      height: 702px;
+    }
+    #items {
+      padding: 50px;
+      margin-left: 50px;
+    }
+    #items ul li {
+      list-style: none;
+      padding-right: 350px;
+    }
+    #items ul li {
+      display: inline;
+      padding: 10px;
+      font-family: sans-serif;
+      font-weight: bold;
+      color: red;
+    }
+    #left {
+      float: left;
+      clear: both;
+      padding-right: 250px;
+    }
+    #right {
+      float: right;
+      padding-right: 350px;
+    }
+    .hr1 {
+      height: 3px;
+      color: #000;
+      background-color: #000;
+      margin-right: 600px;
+      float: right;
+      clear: both;
+    }
+    .hr2 {
+      height: 3px;
+      color: #000;
+      background-color: #000;
+      margin-right: 100px;
+    }
+    .first {
+      width: 500px;
+      float: left;
+    }
+    .second {
+      width: 500px;
+      float: left;
+    }
+    .third {
+      width: 500px;
+      float: right;
+    }
+    .img1 {
+      margin-left: 100px;
+    }
+    .img2 {
+      margin-left: 100px;
+    }
+    .img3 {
+      margin-left: 100px;
+      margin-top: 50px;
+    }
+    #para1 {
+      margin-left: 100px;
+      font-family: calibri;
+      font-weight: bold;
+      font-size: 35px;
+      color: #616161;
+      padding: 5px;
+    }
+    #para2 {
+      margin-left: 100px;
+      font-family: calibri;
+      font-size: 16px;
+      color: #B8B7B3;
+      padding: 8px;
+    }
+    #para3 {
+      margin-left: 100px;
+      font-family: calibri;
+      font-size: 22px;
+      color: #616161;
+      font-weight: bold;
+      padding-bottom: 20px;
+    }
+    #para4 {
+      margin-left: 100px;
+      font-family: calibri;
+      font-size: 22px;
+      color: #616161;
+      font-weight: bold;
+      padding-bottom: 20px;
+    }
+    #para5 {
+      font-family: calibri;
+      font-size: 22px;
+      color: #616161;
+      font-weight: bold;
+      padding-bottom: 20px;
+    }
+    .div3 {
+      background-color: #ffffff;
+      width: 100%;
+      height: 900px;
+    }
+    .leftDiv {
+      width: 35%;
+      height: 900px;
+      background-color: #2A2A2A;
+      float: left;
+    }
+    .rightDiv {
+      width: 100%;
+      height: 900px;
+      background-color: #E0382D;
+    }
+    .rightInner {
+      margin-left: 600px;
+      padding: 50px;
+    }
+    .rightInner p {
+      color: #ffffff;
+      font-family: Calibri;
+      font-size: 16px
+
+    }
+    progress {
+      width: 500px;
+      height: 6px;
+      background-color: #eee;
+    }
+    .progressbar {
+      color: #ffffff;
+      font-family: Calibri;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .contact {
+      font-size: 30px;
+      font-family: Calibri;
+      font-weight: bold;
+      color: #ffffff;
+    }
+    .box1 {
+      width: 200px;
+      border: 3px solid white;
+      float: left;
+      padding: 10px;
+      margin-top: 30px;
+      color: white;
+      font-family: Calibri;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .div4 {
+      background-color: #ffffff;
+      width: 100%;
+      height: 450px;
+    }
+    .div4_header {
+      margin-left: 100px;
+
+      padding-top: 60px;
+      font-family: Calibri;
+      font-weight: bold;
+      font-size: 30px;
+    }
+    .fireAlert {
+      border: 6px solid red;
+      width: 150px;
+      height: 230px;
+      margin-left: 100px;
+      margin-top: 40px;
+      float: left;
+    }
+    .fireAlert img {
+      margin-top: 30px;
+      margin-left: 30px;
+
+    }
+    .fireAlert p {
+      font-family: Calibri;
+      font-size: 18px;
+      padding: 10px;
+      margin-left: 10px;
+
+    }
+    .div5 {
+      background-image: url("fire_12.jpg");
+      height: 1000px;
+      background-size: 100%;
+    }
+    .div51 {
+      padding: 10px 0 0 10px;
+      width: 500px;
+
+    }
+    .div6 {
+      background-color: #ffffff;
+      width: 100%;
+      height: 700px;
+      padding:10px 100PX  ;
+
+    }
+    div.gallery {
+      margin: 10px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 300px;
+    }
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+    .div7 {
+        background-color: #ffffff;
+        width: 100%;
+      height:450px;
+      }
+    .div7 div{
+      float:left;
+    }
+    .address h2,p{
+      margin-left: 100px;
+    } 
+    .image{
+      padding:10px;
+    }
+    .div8{
+      background-color: #000000;
+      width:100%;
+      height:702px;
+
+    }
+    .div8 h2{
+      font-family: Calibri;
+      font-weight: bold;
+      font-size:25px;
+      color:white;
+      display: inline-block;
+      margin:0px auto;
+      padding:100px;
+    }
+    .div8 ul{
+      float:left;
+      color:white;
+
+      padding-left:100px;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="div1">
+    <img src="fire_2.jpg" height=60px width=60px>
+    <div class="text">FIRE <br/>DEPARTMENT</div>
+    <div class="menu_bar">
+      <ul>
+        <li>HOME</li>
+        <li>ABOUT US</li>
+        <li>SERVICES</li>
+        <li>ACHIEVEMENT</li>
+        <li>ESTABLISHMENT</li>
+        <li>GALLERY</li>
+        <li>ACADEMY</li>
+        <li>CONTACT US</li>
+        <li><i class="fa fa-search fa-1x" aria-hidden="true"></i></li>
+      </ul>
+    </div>
+    <div class="text1">Ensure fire safety,<br/> save life,save property</div>
+    <div class="box"><i class="fa fa-sign-in" aria-hidden="true"></i>SIGN UP FOR ALERTS</div>
+    <div class="box"> CUSTOMER SERVICE</div>
+  </div>
+  <div class="div2">
+    <div id="items">
+      <ul>
+        <li>
+          <ul id="left">
+            <li style="color:black;">LATEST NEWS</li>
+          </ul>
+        </li>
+        <li>ALL</li>
+        <li>CURRENT</li>
+        <li>EXPIRED</li>
+        <li>FEATURED</li>
+        <li>
+          <ul id="right">
+            <li style="color:black;">EVENTS</li>
+          </ul>
+        </li>
+      </ul>
+      <hr class="hr1"/>
+      <br/>
+      <hr class="hr2"/>
+    </div>
+    <div class="first">
+      <img class="img1" src="fire_3.jpg" alt="" width="400px" height="250px">
+      <p id="para1">CFD to Hold Graduation <br/> Cermony for 118 EMTs</p>
+      <p id="para2">Sed ut perspiciatis,unde omins iste natus error sit <br/>voluptatem accusantium doloremque
+        laudantium,totam <br/>rem aperiam eaque ipsa,quae abillo...</p>
+      <span style="margin-left:100px;color:#B8B7B3;"><i class="fa fa-clock-o" aria-hidden="true"></i>  04/01/2017
+        <span style="padding:5px;"><i class="fa fa-eye" aria-hidden="true"></i> 75</span>
+        <span style="padding:5px;"><i class="fa fa-heart" aria-hidden="true"></i> 0</span>
+        <span style="padding:5px;"><i class="fa fa-comment-o" aria-hidden="true"></i> 0</span>
+      </span>
+    </div>
+    <div class="second">
+      <img class="img2" src="fire_4.jpg" alt="" width="220px" height="110px">
+      <p id="para3">CFD Boxing Team<br/> Presents check to <br/>Building homes for<br/> Heroes</p>
+      <span style="margin-left:100px;color:#B8B7B3;"><i class="fa fa-clock-o" aria-hidden="true"></i>  04/01/2017</span>
+      <img class="img3" src="fire_5.jpg" alt="" width="220px" height="110px">
+      <p id="para4">CFD Holds women's <br> History Month Outreach <br>Event</p>
+      <span style="margin-left:100px;color:#B8B7B3;"><i class="fa fa-clock-o" aria-hidden="true"></i>  04/01/2017</span>
+    </div>
+    <div class="third">
+      <p id="para5">CFD Fire Marshall's Arrest Suspect <br> For Dozens of False Alarm Calls</p>
+      <span style="color:#B8B7B3;"><i class="fa fa-clock-o" aria-hidden="true"></i>  04/01/2017</span>
+    </div>
+  </div>
+  <div class="div3">
+    <div class="leftDiv">
+      <h2 style="text-align: center;color: #ffffff;font-family:Calibri;font-size:25px; margin-top:50px;">OUR
+        HEROES</h2>
+      <img style="float:right;margin-top:60px;" src="fire_6.jpg" alt="" width="320px" height="400px">
+      <p style="width:400px; margin:480px 0 0 200px;padding:15px;color:#ffffff;font-weight: bold;font-family: Calibri;font-size:25px;">
+        A New Era in Swiftwater <br> Rescue Training Facilities</p>
+    </div>
+    <div class="rightDiv">
+      <div class="rightInner">
+        <p style="margin-bottom:50px;color: #ffffff;font-family:Calibri;font-weight:bold;font-size:25px; ">ABOUT
+          CFD</p>
+        <p style="margin-bottom:40px;">Promoting Excellence as the World's Accredited Municipal <br> Fire Agency.
+        </p>
+        <p> Vision Statement-HFD will be recognized as a premier public <br> service organization,respected and
+          admired by our peers and the <br> community as the most diverse ,innovative,and efficient public safety
+          <br> provider in the world.</p>
+        <p style="margin-bottom:40px;">Mission Statement-To save lives, protect property and serve our <br>
+          community with courage ,commitment and compassion.</p>
+        <span class="progressbar">INSPECTION REQUESTS</span><br>
+        <progress max="100" value="80"></progress>
+        <br><br> <span class="progressbar">FAMILY SAVED</span><br>
+        <progress max="100" value="80"></progress>
+        <br><br> <span class="progressbar">FIRE ALARM INSPECTION</span><br>
+        <progress max="100" value="80"></progress>
+        <br><br> <span class="progressbar">PUBLIC MEETINGS</span><br>
+        <progress max="100" value="80"></progress>
+        <br><br><br> <span class="contact">Call us immediately</span><br>
+        <span class="contact">you are the one:1</span><br> <span class="contact">234-567-8910</span><br><br>
+        <div class="box1">JOIN OUR FIRE DEPARTMENT</div>
+      </div>
+    </div>
+  </div>
+  <div class="div4">
+    <p class="div4_header">RESOURCES</p>
+    <hr class="hr2" style="margin-left:100px;margin-top:5px;margin-right:200px;"/>
+    <div class="fireAlert">
+      <img src="fire_7.png" alt="" width="80px" height="80px">
+      <p>SMOKE ALARMS</p>
+    </div>
+    <div class="fireAlert">
+      <img src="fire_8.png" alt="" width="100px" height="100px">
+      <p>VISITS,TOURS AND SPEAKERS</p>
+    </div>
+    <div class="fireAlert">
+      <img src="fire_9.png" alt="" width="100px" height="100px">
+      <p>CFD CAREERS</p></div>
+    <div class="fireAlert">
+      <img src="fire_10.png" alt="" width="100px" height="100px">
+      <p>FIRE STATIONS</p></div>
+    <div class="fireAlert"><img src="fire_11.png" alt="" width="100px" height="100px">
+      <p>FORMS&PERMITS</p></div>
+  </div>
+  <div class="div5">
+    <div class="div51">Fire Department is dedicated to saving Lives</div>
+    <p style="color:white;width:500px;font-family: Calibri;font-size: 25px;">
+      The city fire Department is Dedicated to saving Lives,Fighting fires safety and prevention,and Building
+      communities</p>
+    <img style="padding:100px;float:left;" src="fire_13.png" alt="" width="200px" height="100px">
+  </div>
+  <div class="div6">
+    <p style="font-weight:bold;font-family:Calibri;font-size: 25px; ">PROGRAMS & INITIATIVES</p>
+    <hr style="border: 3px solid black;margin:7px;width:1270px;">
+    <div class="gallery">
+      <a target="_blank" href="fire_14.jpg">
+        <img src="fire_14.jpg" alt="Trolltunga Norway" width="300" height="200">
+      </a>
+      <div class="desc">Fire Department</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="fire_15.jpg">
+        <img src="fire_15.jpg" alt="Forest" width="600" height="400">
+      </a>
+      <div class="desc">Fire Department</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="fire_16.jpg">
+        <img src="fire_16.jpg" alt="Northern Lights" width="600" height="400">
+      </a>
+      <div class="desc">Fire Department</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="fire_17.jpg">
+        <img src="fire_17.jpg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc">Fire Department</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="fire_18.jpg">
+        <img src="fire_18.jpg" alt="Trolltunga Norway" width="300" height="200">
+      </a>
+      <div class="desc">Fire Department</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="fire_20.jpg">
+        <img src="fire_20.jpg" alt="Forest" width="600" height="400">
+      </a>
+      <div class="desc">Fire Department</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="fire_20.jpg">
+        <img src="fire_20.jpg" alt="Northern Lights" width="600" height="400">
+      </a>
+      <div class="desc">Fire Department</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="fire_21.jpg">
+        <img src="fire_21.jpg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc">Fire Department</div>
+    </div>
+  </div>
+  <div class="div7">
+    <div class="address">
+      <h2>GET IN TOUCH WITH US</h2>
+      <P>VILLAS APARTMENTS <br>
+      3570 BUCKY ST,<br>
+        SANTA THERESA,95521.
+      </P>
+    </div>
+    <div class="image">
+      <img src="location.jpg" alt="" width="800px" height="400px;">
+    </div>
+  </div>
+</div>
+</body>
+</html>
